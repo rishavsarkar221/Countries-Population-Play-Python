@@ -22,7 +22,7 @@ def add_country(country):
         return print("Country Already Exists!")
     else:
         try:
-            population_input = round(int(input(f"Enter Population for {country_input}: ")))
+            population_input = int(input(f"Enter Population for {country_input}: "))
             country[country_input] = int(population_input)
             print(f"{country_input} Added Successfully")
             print("\n")
