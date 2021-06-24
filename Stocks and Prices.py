@@ -43,3 +43,5 @@ if userInput.lower() == "print":
     print_stocks(stocks)
 elif userInput.lower() == "add":
     add(stocks)
+else:
+    print("Enter a valid command!")
